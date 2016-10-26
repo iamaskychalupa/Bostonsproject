@@ -1,0 +1,136 @@
+header{
+      /* This will be a video*/
+    background: url(http://res.cloudinary.com/dqgjaecet/image/upload/v1476562770/bostonspic_erjdxv.jpg) no-repeat center center fixed;
+    height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+     clear: both;
+}
+
+#welcome{
+  font-size:75px;
+  weight:700;
+  color:white;
+  text-transform:uppercase;
+  letter-spacing:0.05em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -400px;
+}
+
+#whiteborder{
+  display:inline-block;
+  padding:.5em;
+  border:white solid 5px;
+}
+/*header end*/
+/* ABOUT PAGE */
+#about-page {
+    display:block;
+    background:white;
+    font-size: 24px;
+    border:1px solid black;
+    margin-top:2%;
+    margin-bottom:5%;
+  }
+
+.container-fluid{
+    top:-10px;
+}
+#left, #right {
+    display: inline-block;
+    background:white;
+    font-family: 'Abhaya Libre', serif;
+    width:47%;
+    }
+
+#left {
+ margin-left:2%;
+ border:1px solid red;
+}
+
+#right {
+ margin-left:2%;
+ border:1px solid red;
+}
+
+#BP{
+  font-size:50px;
+  color:red;
+}
+/*slider style*/
+.cycle-slideshow{
+top:22px;
+}
+/*ABOUT PAGE END*/
+
+
+
+/* MENU PAGE*/
+.menuhead{
+  text-align:center;
+}
+ul.tab {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {
+  float: left;
+  text-align: center;
+}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: red;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+table {
+    border-spacing: 15px;
+}
+
+#section-menu{
+   float:left;
+   width:100%;
+   background:#fff;
+   border-bottom:4px solid #000;
+   overflow:hidden;
+   position:relative;
+
+}
